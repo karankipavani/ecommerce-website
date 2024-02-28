@@ -1,13 +1,54 @@
-- var texts = ['W', 'e', 'l', 'c', 'o', 'm', 'e', ': )'];
-- var number_of_particle = 12;
-
-- for (var i = 0; i < texts.length; i++)
-  .background(class="background" + i)
-.criterion
-  - for (var i = 0; i < texts.length; i++)
-    .text(class='text' + i) #{texts[i]}
-  - for (var i = 0; i < texts.length; i++)
-    .frame(class='frame' + i)
-  - for (var i = 0; i < texts.length; i++)
-    - for (var j = 0; j < number_of_particle; j++)
-      .particle(class="particle" + i + j)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Website</title>
+    <link rel="stylesheet" href="style.css"
+</head>
+<body>
+  <div class="one">
+    <h1>E-Commerce Website</h1>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Search</a></li>     
+        </ul>
+    </nav>
+  </div> <br><br> 
+  <main class="product">
+  <section class="products">
+        <img src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/19473744/2022/9/13/5b4fc687-b93b-4141-aeb6-1bd82db75e671663054576612-Antheaa-Women-Dresses-631663054576038-1.jpg" height="400px" width="300px">
+        <h2>Stylish Party Wear Dress</h2>
+        <p class="price">Rs.599</p>
+        <button class="button">Add to Cart</button>
+  </section>
+  <section class="products">
+        <img src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/8376999/2022/7/13/88f9f214-664f-4ebe-8676-0a306efbe6b11657702306426-Lino-Perros-Off-White-Quilted-Handheld-Bag-1691657702305546-1.jpg" height="400px" width="300px">
+        <h2>Off-White Quilted Handheld Bags</h2>
+        <p class="price">Rs.1599</p>
+        <button class="button">Add to Cart</button>
+  </section>
+  <section class="products">
+        <img src="https://rukminim2.flixcart.com/image/832/832/xif0q/sandal/s/e/j/2-l1147l11240-2-uunda-fashion-brown-original-imaguss4rsxgyabv.jpeg?q=70&crop=false" height="400px" width="300px">
+        <h2>Women's Brown Heels</h2>
+        <p class="price">Rs.999</p>
+        <button class="button">Add to Cart</button>
+  </section>
+  <section class="products">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvPsTtB72-2L3gI3L7gcYnPeHXL8J-fub2eA&s" height="400px" width="300px">
+        <h2>Timex Analogue Watch</h2>
+        <p class="price">Rs.2499</p>
+        <button class="button">Add to Cart</button>
+  </section>
+  </main>
+  <br><br>
+  <footer>
+    <section class="contact">
+        <h3>Contact Us:WWW.ecommercewebsite.com</h3>
+    </section>
+  </footer>
+</body>
+</html>
